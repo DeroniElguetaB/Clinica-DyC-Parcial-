@@ -1,0 +1,53 @@
+.download{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10px;
+}
+
+.imagenmodal{
+    display: none;
+}
+
+.megusta{
+    display: none;
+}
+
+.spanfecha{
+display: none;
+}
+
+.nombreuser{
+    display: none;
+}
+.header{
+    height: 15vh; /* Por ejemplo, el header ocupa el 20% de la altura de la pantalla */
+    /* Otros estilos para tu header */
+    padding-left: 20px !important;
+}
+.home {
+    height: 85vh; /* El contenido de la página home ocupa el 80% de la altura de la pantalla */
+    /* Otros estilos para tu home */
+}
+.imghome{
+    background-image: url("../../assets/tipos-cirujanos-large.jpg") !important;
+}
+
+.imgsignin{
+    background-image: url("../../assets/bg-medical-image.jpg") !important;
+    height: 85vh; 
+}
+
+.dashboard{
+    min-height: 85vh;
+}
+
+.searchNav{
+    background: none !important;
+}
+
+
+@media (min-width: 768px) and (max-width: 1123px) {
+    .arreglocoment {
+      width: 73% !important;
+    }
+}
